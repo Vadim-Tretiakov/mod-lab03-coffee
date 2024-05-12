@@ -7,8 +7,7 @@
 #include <string>
 #include <fstream>
 
-enum STATES
-{
+enum STATES {
     OFF,
     ON,
     COIN,
