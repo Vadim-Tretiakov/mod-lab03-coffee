@@ -20,36 +20,36 @@ enum STATES {
     FINISH
 };
 
-class Automata {
-    public:
-        int cash;
-        std::vector<std::string> menu;
-        std::vector<int> prices;
-        STATES state;
+class Automata  {
+                public:
+                    int cash;
+                    std::vector<std::string> menu;
+                    std::vector<int> prices;
+                    STATES state;
 
-        Automata();
+                    Automata();
 
-        void on();
+                    void on();
 
-        void off();
+                    void off();
 
-        void coin(int amount);
+                    void coin(int amount);
 
-        void etMenu(const std::string& filename);
+                    void etMenu(const std::string& filename);
 
-        STATES getState();
+                    STATES getState();
 
-        void choice(int index);
+                    void choice(int index);
 
-        void check();
+                    void check();
 
-        void cancel();
+                    void cancel();
 
-        void cook();
+                    void cook();
 
-        void finish();
+                    void finish();
 
-        friend class AutomataTest;
+                    friend class AutomataTest;
 };
 
 #endif  // INCLUDE_AUTOMATA_H_

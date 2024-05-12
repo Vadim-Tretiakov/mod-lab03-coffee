@@ -1,3 +1,5 @@
+// Copyright [year] <Copyright Owner>
+
 #include "gtest/gtest.h"
 #include "Automata.h"
 

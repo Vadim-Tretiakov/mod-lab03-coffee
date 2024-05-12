@@ -42,8 +42,7 @@ STATES Automata::getState() {
 }
 
 void Automata::choice(int index) {
-    if (index >= 0 && index < menu.size())
-    {
+    if (index >= 0 && index < menu.size()) {
         cash -= prices[index];
         state = STATES::CHECK;
     } else {
